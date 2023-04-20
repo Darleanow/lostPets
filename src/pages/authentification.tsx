@@ -52,11 +52,11 @@ export default function Authent() {
             <img src="/lostPetsLogo.png" width={150} className="mx-auto" />
             <div className="mt-5 space-y-2">
                 {isNewAccount ? (
-                <h3 className="text-gray-800 text-2xl font-bold sm:text-3xl">
+                <h3 className="text-stone-400 text-4xl font-bold sm:text-3xl">
                     Sign up
                 </h3>
                 ) : (
-                <h3 className="text-gray-800 text-2xl font-bold sm:text-3xl">
+                <h3 className="text-stone-400 text-2xl font-bold sm:text-3xl">
                     Log in
                 </h3>
                 )}
