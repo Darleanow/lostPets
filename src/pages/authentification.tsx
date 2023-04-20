@@ -49,7 +49,7 @@ export default function Authent() {
         </div>
         <div className="max-w-sm w-full text-gray-600">
             <div className="text-center">
-            <img src="/lostPetsLogo.png" width={150} className="mx-auto" />
+            <img src="/lostPetsLogo.png" width={300} className="mx-auto" />
             <div className="mt-5 space-y-2">
                 {isNewAccount ? (
                 <h3 className="text-stone-400 text-4xl font-bold sm:text-3xl">
