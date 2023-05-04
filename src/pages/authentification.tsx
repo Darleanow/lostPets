@@ -28,7 +28,7 @@ export default function Authent() {
         const token = credential.accessToken;
         const user = result.user;
         console.log(user);
-        router.push("/index");
+        //router.push("/home");
       })
       .catch((error) => {
         // Error during Google authentication
@@ -90,7 +90,7 @@ export default function Authent() {
                     setErrorMessage(errorMessage);
                 });
     }
-    router.push("/home");
+    //router.push("/home");
   }
 
   const handleLoginClick = () => {
