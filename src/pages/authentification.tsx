@@ -25,7 +25,7 @@ export default function Authent() {
       .then((result) => {
         // Google authentication successful
         const credential = GoogleAuthProvider.credentialFromResult(result);
-        const token = credential.accessToken;
+        const token = credential && credential.accessToken ? credential.accessToken : null;
         const user = result.user;
         console.log(user);
         //router.push("/home");
