@@ -90,7 +90,7 @@ export default function Authent() {
                     setErrorMessage(errorMessage);
                 });
     }
-    //router.push("/home");
+    router.push("/home");
   }
 
   const handleLoginClick = () => {
